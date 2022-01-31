@@ -1,0 +1,46 @@
+
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"></link>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+
+    <title>Dj song adjester</title>
+</head>
+<body background = "background.png">
+    <center>
+    <h1 class="btn-warning heading">
+        Ai DJ webApp
+        <br>
+        <span class="note">Note: Move your Right hand wrist up and down to increase and decrease the speed of the music
+            ,Move you left hand wrist to increase and decrease the volume of the music
+        </span>
+    </h1>
+    <div class="divSpeed">
+        <img src="disk.gif" class="divspeedimg">
+        <br>
+        <h3 id="speed" class="btn-primary">Speed</h3>
+    </div>
+    <div class="divVolume">
+        <img src="disk.gif" class="divVolumeimg">
+        <br>
+        <h3 id="volume" class="btn-primary">Volume</h3>
+    </div>
+    <br>
+    <br>
+    <button class="btn btn-danger" onclick="play()" id="start">Start</button>
+</center>
+</body>
+</html>
